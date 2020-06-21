@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="Index.html">INDEX</a>
+
+
+    <h1>TABLE</h1>
+    <table border = "1">
+        <tr>
+            <th></th>
+            <th >Photo</th>
+            <th >First Name</th>
+            <th >Last Name</th>
+            <th>Job</th>
+            <th >Salary</th>
+        </tr>
+        <tbody id="tbody"></tbody>
+        <tfoot> 
+            <form>
+                <tr>
+                    <td><input type="submit" value="Add Row" onclick="addData()"></td>
+                    <td><input id="photo" type="file" value="Photo"></td>
+                    <td><input id="firstname" type="text"></td>
+                    <td><input id="lastname" type="text"></td>
+                    <td><input id="job" type="text"></td>
+                    <td><input id="salary" type="text"></td>
+                </tr>
+            </form>
+        </tfoot>
+    </table>
+    <script src="javascript.js"></script>
+</body>
+</html>
